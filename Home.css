@@ -9,7 +9,7 @@ h1 {
     font-size: 100px;
 }
 
-ul {list-style-type: none;
+ul.a {list-style-type: none;
       background: #F6F093;
       padding: 20px;
       margin: 5px;
