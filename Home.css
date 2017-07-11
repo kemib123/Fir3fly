@@ -1,13 +1,19 @@
 body {
-    background-color:;
+    background-color: #F7EF6A;
 }
 
 
 h1 {
-    color: ;
+    color:Black ;
 }
 
+ul.a {list-style-type: none;
+      background: #F6F093;
+      padding: 20px;
+      margin: 5px;
+      display: inline-block;
+}
 
 p {
-    color:;
+    color:Black;
 }
