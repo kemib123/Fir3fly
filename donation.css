@@ -1,0 +1,74 @@
+li {
+  display:inline;
+  padding: 10px 40px;
+}
+
+#ord{list-style-type:circle;
+    text-align: left;}
+
+#menu {
+  text-align: center;
+}
+
+#pics{
+  text-align: center;
+}
+
+#pencil {
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+
+#money {
+  display: inline;
+  width: 100px;
+  height: 100px;
+
+}
+
+#book {
+  display: inline;
+  width: 100px;
+  height: 100px;
+
+}
+
+#backpack {
+  display: inline;
+  width: 100px;
+  height: 100px;
+}
+
+#change {
+    list-style-type: none;
+    text-align: center;
+}
+
+#cashcon {
+  display: inline;
+  text-align: center;
+}
+
+#pencilcon {
+  display: inline;
+  text-align: center;
+}
+
+#backpackcon {
+  display: inline;
+  text-align: center;
+}
+
+#bookcon {
+  display: inline;
+  text-align: center;
+}
+
+#hiddenlist {
+  display: inline;
+  text-align: center;
+}
+p1 {text-align: center;
+    color: red;
+    font-family: Verdana;}
