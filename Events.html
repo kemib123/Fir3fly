@@ -3,25 +3,23 @@
 
 <head>
 <style>
-  
+
 .logo-font {
   font-weight: normal;
   font-style: normal;
-  font=family: 'Comic Sans MS';
-  border: none;
-  font-size: 40px;
-  outline: none;
-  color: #000000;
-  cursor: pointer;
+  font=family: 'Comic Sans';
   }
-  
-.button {
+
+ button {
+  background-color: transparent;
   border: none;
-  cursor: pointer;
   width: 100px;
-  font-size: 40px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Comic Sans';
+  cursor: pointer;
   }
-  
+
 .fc-event-hover {
   position: relative !important;
   height: 17px;
@@ -77,7 +75,7 @@
         }, {
           title: 'Back to school extravaganza',
           start: '2017-07-30',
-        }, { 
+        }, {
           title: 'The Birth Of Fir3fly.',
           start: '2017-07-07',
         }, {
@@ -118,14 +116,12 @@
           start: '2016-05-28'
         }]
       });
-
       $('.fc-event').mouseenter(function() {
         $(this).addClass('fc-event-hover');
       });
       $('.fc-event').mouseleave(function() {
         $(this).removeClass('fc-event-hover');
       });
-
     });
   </script>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.3/fullcalendar.min.css" />
@@ -133,8 +129,9 @@
 </head>
 
 <body>
-  <button class "logo-font" onClick = "window.location.href='home.html';"> Fir3Fly </button>
+  <button class = "button" onClick = "window.location.href='home.html';"> Fir3Fly </button>
   <div id="calendar"></div>
 </body>
 
 </html>
+
