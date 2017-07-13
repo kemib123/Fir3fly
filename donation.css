@@ -1,74 +1,51 @@
-li {
-  display:inline;
-  padding: 10px 40px;
+div.gallery {
+    border: 1px solid #ccc;
 }
 
-#ord{list-style-type:circle;
-    text-align: left;}
-
-#menu {
-  text-align: center;
+div.gallery:hover {
+    border: 1px solid #777;
 }
 
-#pics{
-  text-align: center;
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
 
-#pencil {
-  display: inline;
-  width: 100px;
-  height: 100px;
-}
-
-#money {
-  display: inline;
-  width: 100px;
-  height: 100px;
-
-}
-
-#book {
-  display: inline;
-  width: 100px;
-  height: 100px;
-
-}
-
-#backpack {
-  display: inline;
-  width: 100px;
-  height: 100px;
-}
-
-#change {
-    list-style-type: none;
+div.desc {
+    padding: 15px;
     text-align: center;
 }
 
-#cashcon {
-  display: inline;
-  text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-#pencilcon {
-  display: inline;
-  text-align: center;
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
 }
 
-#backpackcon {
-  display: inline;
-  text-align: center;
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
 
-#bookcon {
-  display: inline;
-  text-align: center;
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
 }
 
-#hiddenlist {
-  display: inline;
-  text-align: center;
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-p1 {text-align: center;
-    color: red;
-    font-family: Verdana;}
+
+h2 {
+	text-align: center;
+
+}
