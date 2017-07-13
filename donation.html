@@ -53,47 +53,37 @@ a:link {
 </head>
 <body>
     
+<div class="responsive">
+  <div class="gallery">
+      <img src="book3.png" alt="Books" width="300" height="200" onclick="bookpic()">
+    <div class="desc" id="bk">Click here to see the list of books we need.</div>
+  </div>
+</div>
+<script src="booklist.js"></script>
 
-<div id="pics">
-      <ul>
-        <li>
-          <div id="cashcon">
-            <img id ="money" src="money.png" alt="dollars">
-          </div>
-        </li>
-        <li>
-          <div id="bookcon">
-            <img id ="book" src="book.png" alt="books">
-          </div>
-        </li>
-        <li>
-          <div id="backpackcon">
-            <img id ="backpack" src="backpack.jpg" alt="A backpack">
-          </div>
-        </li>
-        <li>
-          <div id="pencilcon">
-            <img id ="pencil" onclick="pencilpic()" src="pencil.jpg" alt="A pencil">
-            <script src="openpics.js"></script>
-          </div>
-        </li>
-    </div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="pen.png" alt="Writing Tools" width="600" height="400" onclick="pencilpic()">
+    <div class="desc" id="pcil">Click here to see the list of writing tools we need.</div>
+  </div>
+</div>
+<script src="pencillist.js"></script>
 
-    <div id="menu">
-      <ol>
-        <li> Money </li>
-        <li> Books </li>
-        <li> Bags </li>
-        <li> Writing Tools <li>
-      </ol>
-    </div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="dollar2.png" alt="Money" width="600" height="400">
+    <div class="desc">Click here to see the forms of payment we accept.</div>
+  </div>
+</div>
 
-    <div id="hiddenlist">
-      <ul>
-        <li id="pcil"></li>
-        <li id="bk"></li>
-        <li id="cash"></li>
-        <li id="backpk"></li>
+<div class="responsive">
+  <div class="gallery">
+      <img src="bag3.png" alt="Bookbags" width="600" height="400">
+    <div class="desc">Click here to see the list of bags we need.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
 
 
 <p><button><a href="https://www.gofundme.com/fir3fly"</a></button></p>
