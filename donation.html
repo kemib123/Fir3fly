@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title> Donations </title>
-</head>
-<body>
-    <style>
-a:link {
-  font-size: 25px;
-  font-family: 'century gothic'
-}
-  .secondText {
-  font-size: 20px;
-}
 
-    </style>
-    <h1 style = "text-align: left; text-size: 90px">Fir3fly - <span class = "secondText"> Easing the path to education.</span></h1>
-    <h2>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html>
+
+<head>
+  <title> Donations </title>
+  <link rel="stylesheet" type="text/css" href="Donation(n).css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+    
 <body>
+
+<h2>Fir3fly -
+  <span class = "secondText"> Easing the path to education.</span></h2>
+
 <div class="w3-container">
 
 
@@ -29,62 +23,39 @@ a:link {
   <a href="Ways_We_Give_Back.html" class="w3-bar-item w3-button">Ways to give back</a>
   <a href="donation.html" class="w3-bar-item w3-button">Donations</a>
   <a href="Events.html" class="w3-bar-item w3-button">Events</a>
- 
- </h2>
+</div>
 
-<style>
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+</div>
 
-
-.button3 {background-color: #f44336;} /* Red */ 
-
-</style>
-</head>
-<body>
-    
-<div class="responsive">
+<div class="responsive" id="bkkie">
   <div class="gallery">
-      <img src="book3.png" alt="Books" width="300" height="200" onclick="bookpic()">
+      <img src="book3.png" alt="Books" width="300" height="200" onclick="bookpic()" >
     <div class="desc" id="bk">Click here to see the list of books we need.</div>
   </div>
 </div>
 <script src="booklist.js"></script>
 
-<div class="responsive">
+<div class="responsive" id="pencie">
   <div class="gallery">
-      <img src="Pen.png" alt="Writing Tools" width="600" height="400" onclick="pencilpic()">
+      <img src="Pen.png" alt="Writing Tools" width="600" height="400" onclick="pencilpic()" >
     <div class="desc" id="pcil">Click here to see the list of writing tools we need.</div>
   </div>
 </div>
 <script src="pencillist.js"></script>
 
-<div class="responsive">
+<div class="responsive" id="bggie">
   <div class="gallery">
-      <img src="bag3.png" alt="Bookbags" width="300" height="200">
-    <div class="desc">Click here to see the list of bags we need.</div>
+      <img src="bag3.png" alt="Bookbags" width="600" height="400" onclick="bagpic()" >
+    <div class="desc" id="bge">Click here to see the list of bags we need.</div>
   </div>
 </div>
+<script src="baglist.js"></script>
 
 <div class="clearfix"></div>
-
 
 <p><button><a href="https://www.gofundme.com/fir3fly"</a></button></p>
 
 <button class="button button3">Donate Now</button>
-
-
-
 
 </body>
 </html>
