@@ -1,4 +1,4 @@
 function moneypic() {
-  document.getElementById("mop").style.display = "inline";
-  document.getElementById("but").style.display = "inline";
+  document.getElementById("kng").style.display = "none";
+  document.getElementById("but").style.display = "inline-block";
 }
