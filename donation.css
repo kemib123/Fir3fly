@@ -1,7 +1,9 @@
+h2{
+  font-family: Papyrus;
+}
 
 #Tit {
   font-family: Papyrus;
-  font-size: 50px;
 }
 
 div.gallery {
@@ -67,19 +69,21 @@ font-size: 20px;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: red;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    font-family: Papyrus;
 }
-.button3 {background-color: #f44336;} /* Red */
 
+#but {
+  display: none;
+}
 #bkkie {
   cursor: pointer;
   font-family: papyrus;
@@ -88,14 +92,6 @@ font-size: 20px;
 #pencie {
   cursor: pointer;
   font-family: papyrus;
-}
-
-#but{
-  display:none;
-}
-
-#mop{
-  display:none;
 }
 
 #bggie {
