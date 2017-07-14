@@ -1,3 +1,11 @@
+h2{
+  font-family: Papyrus;
+}
+
+#Tit {
+  font-family: Papyrus;
+}
+
 div.gallery {
     border: 1px solid #ccc;
 }
@@ -14,6 +22,11 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+.w3-container{
+  font-family: Papyrus;
+  font-size: 27px;
 }
 
 * {
@@ -48,7 +61,7 @@ div.desc {
 h2 {
 	text-align: left;
   font-size: 60px;
-
+  font-family: papyrus;
 }
 
 .secondText {
@@ -71,12 +84,28 @@ font-size: 20px;
 
 #bkkie {
   cursor: pointer;
+  font-family: papyrus;
 }
 
 #pencie {
   cursor: pointer;
+  font-family: papyrus;
+}
+
+#but{
+  display:none;
+}
+
+#mop{
+  display:none;
 }
 
 #bggie {
   cursor: pointer;
+  font-family: papyrus;
+}
+
+#kaching {
+  cursor: pointer;
+  font-family: papyrus;
 }
