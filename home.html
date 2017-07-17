@@ -18,43 +18,67 @@
   font-size: 100px;
   left: 250px;
   color: black;
-  font-family: 'Comic Sans';
+  font-family: 'Courier';
   cursor: pointer;
   }
 
   a:link {
-    color: purple;
+    color: black;
     font-family: 'Papyrus';
     font-size: 25px;
 
   }
         .secondText {
-     text-align: right;
   font-size: 30px;
-  font-family: 'century gothic';
+  text-align: left;
+  font-family: 'Century gothic';
+  {}
+  }
+
+li a:hover:not(.active) {
+  background-color: #7D1935;
 }
-  
-      </style>
+
+.active {
+  background-color: #F5F3EE;
+}
+
+.navigation {
+  left: 200px;
+  display: inline-block;
+
+}
+
+.grey-box {
+
+  background-color: #dfdbff;
+  width: auto;
+  height: 200px;
+  display: block;
+}
+
+
+    </style>
+
     </head>
 
-    <body  style = "background-color: #ffefdb">
-  <h1 style = "font-family:Papyrus; text-align: right; font-size: 50px">Fir3fly - <span class = "secondText"> Easing the path to education.</span></h1>
+    <body  style = "background-color: #ffefdb ">
+  <h1 style = "font-family:Papyrus;text-align: right; font-size: 50px">Fir3fly - <span class = "secondText"> Easing the path to education.</span></h1>
       <h2>
      <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-<div class="w3-container">
+<div class="w3-container" style="display:inline;">
 
 
-<div class="w3-bar w3-border w3-light-grey">
-  <a href="home.html" class="w3-bar-item w3-button w3-grey">Home</a>
+<div class="w3-bar w3-border w3-light-grey" style=align-center>
+
+  <a href="home.html" class="w3-bar-item w3-button w3-white">Home</a>
   <a href="About_Us.html" class="w3-bar-item w3-button">About Us</a>
   <a href="Location.html" class="w3-bar-item w3-button">Locations</a>
   <a href="Ways_We_Give_Back.html" class="w3-bar-item w3-button">Ways to give back</a>
   <a href="donation.html" class="w3-bar-item w3-button">Donations</a>
   <a href="Events.html" class="w3-bar-item w3-button">Events</a>
-
-
 </div>
 
       </h2>
@@ -75,7 +99,7 @@
           <div class="numbertext">3 / 6</div>
           <img src="KIDS IN CLASS.JPG" style="width:50%">
         </div>
-        
+
         <div class="mySlides fade">
           <div class="numbertext">4 / 6</div>
           <img src="images.jpg" style="width:50%">
@@ -104,7 +128,12 @@
 
       <script src= slideshow.js> </script>
 
-      <p1 style="text-align: center;" > <em> <b> Our mission is to provide children a pathway to success through education. By providing them with the supplies they need, we are setting a bright future for them and we will strive to give them excellent quality of life.</em></b>
+      <h3>
+        <h1 style = "font-family:Papyrus;text-align: Center; font-size: 50px"> Our Mission </h3>
+
+
+
+      <p1 style="text-align:center; overflow: hidden; font-size:25px "> <em> <b><span class="grey-box"> Our mission is to provide children a pathway to success through education. By providing them with the supplies they need, we are setting a bright future for them and we will strive to give them excellent quality of life.</span></em></b>
       </p1>
 </body>
 </html>
