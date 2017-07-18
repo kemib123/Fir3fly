@@ -1,0 +1,19 @@
+#moveanothertext {
+    position: relative;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {background-color:none; left:-1000px; top:0px;}
+    100% {background-color:none; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {background-color:none; left:-1000px; top:0px;}
+    100% {background-color:none; left:0px; top:0px;}
+}
