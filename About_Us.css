@@ -46,8 +46,9 @@ h1 {
 }
 
 .secondText {
+display: inline;
 font-size: 30px;
-font-family: century gothic;
+font-family: "century gothic";
 }
 
 .group {
