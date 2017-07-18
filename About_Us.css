@@ -1,0 +1,132 @@
+body {
+  background-color: #ffefdb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+    font-family: 'Papyrus';
+    font-size: 25px;
+    }
+
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+li a.active {
+    color: black;
+    background-color: white;
+}
+
+h1 {
+  font-family:Papyrus;
+  text-align: right;
+  font-size: 50px;
+}
+
+.secondText {
+  font-family:'Century Gothic';
+  font-size: 30px;
+}
+
+.group {
+  text-align: center;
+}
+
+.kemi {
+  position: absolute;
+  width: 300px;
+  left: 410px;
+  bottom: -770px;
+}
+.favour {
+  position: absolute;
+  width: 300px;
+  left:580px;
+  bottom:-1150px;
+}
+.nneoma {
+  position: absolute;
+  left:410px ;
+  width: 300px;
+  bottom:-450px;
+}
+.tobenna {
+  position: absolute;
+  width: 300px;
+  left:1000px ;
+  bottom:-735px ;
+}
+.sana {
+  position: absolute;
+  width: 300px;
+  left:1000px ;
+  bottom:-450px ;
+}
+.fav {
+  position: absolute;
+  width: 280px;
+  left: 350px;
+  bottom: -1200px;
+}
+.kem {
+  position: absolute;
+  width: 280px;
+  left: 200px;
+  bottom: -840px;
+}
+.nne {
+  position: absolute;
+  width: 280px;
+  left: 200px;
+  bottom: -470px;
+}
+.tob {
+  position: absolute;
+  width: 280px;
+  left: 800px;
+  bottom: -840px;
+}
+.san {
+  position: absolute;
+  width: 280px;
+  left: 800px;
+  bottom: -470px;
+}
+
+p11 {
+  font-size: 45px;
+}
+
+p12 {
+  font-size: 35px;
+}
+
+.goal {
+  text-align: center;
+  display: inline-block;
+  bottom: -200px;
+  left: 10px;
+  position: absolute;
+}
